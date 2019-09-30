@@ -6,7 +6,7 @@ module.exports = function (parsedFileContents) {
 }
 
 function generateCSSImport(){
-    return `import {css} from 'lit-element';`;
+    return `import {css} from 'LitResolver/lit-element';`;
 }
 function createCssExport(parsedFileContents) {
     return `export default css\`${parsedFileContents}\`;`;
